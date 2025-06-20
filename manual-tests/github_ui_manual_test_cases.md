@@ -35,3 +35,13 @@ __________________________
 | UI-014       | Merge pull request    | 1. Open PR<br>2. Click **Merge**                                                                                | PR is merged and closed                |
 | UI-015       | Check branch conflict | 1. Create PR with outdated base<br>2. Try to merge                                                              | GitHub shows a merge conflict error    |
 
+### Repository Feature Navigation
+| Test Case ID | Description                   | Steps to Execute                                                        | Expected Result                                         |
+| ------------ | ----------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- |
+| UI-016       | Navigate to Code tab          | 1. Go to any repo<br>2. Click on **Code** tab                           | Repository code files are visible                       |
+| UI-017       | Navigate to Issues tab        | 1. Go to any repo<br>2. Click on **Issues** tab                         | Issues list appears (if issues are enabled)             |
+| UI-018       | Navigate to Pull Requests tab | 1. Go to any repo<br>2. Click on **Pull Requests** tab                  | List of PRs appears                                     |
+| UI-019       | Navigate to Actions tab       | 1. Go to any repo<br>2. Click on **Actions** tab                        | GitHub Actions workflow (if any) is visible             |
+| UI-020       | UI consistency across tabs    | 1. Navigate between **Code**, **Issues**, **PRs**, and **Actions**      | Header, sidebar, and footer layout should be consistent |
+| UI-021       | Check loading time of tabs    | 1. Click each tab and measure load time                                 | Each tab loads within 2–3 seconds (ideally)             |
+| UI-022       | Pagination in Issues tab      | 1. Go to Issues tab with more than 25 issues<br>2. Check bottom of list | Pagination buttons appear and function properly         |
